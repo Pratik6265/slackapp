@@ -29,34 +29,31 @@ This is a Spring Boot application that sends messages to a Slack channel using S
 Project Structure
 
 
-
 slackapp
 ├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com
-│   │   │       └── example
-│   │   │           └── slackapp
-│   │   │               ├── SlackAppApplication.java
-│   │   │               ├── controller
-│   │   │               │   ├── SlackController.java
-│   │   │               │   └── MessageRequest.java
-│   │   │               └── service
-│   │   │                   └── SlackService.java
-│   ├── resources
-│   │   └── application.properties
-└── test
-    └── java
-        └── com
-            └── example
-                └── slackapp
-                    ├── SlackAppApplicationTests.java
-                    ├── service
-                    │   └── SlackServiceTest.java
-                    └── controller
-                        └── SlackControllerIntegrationTest.java
-
-
+│ ├── main
+│ │ ├── java
+│ │ │ └── com
+│ │ │ └── example
+│ │ │ └── slackapp
+│ │ │ ├── SlackAppApplication.java
+│ │ │ ├── controller
+│ │ │ │ ├── SlackController.java
+│ │ │ │ └── MessageRequest.java
+│ │ │ └── service
+│ │ │ └── SlackService.java
+│ ├── resources
+│ │ └── application.properties
+├── test
+│ └── java
+│ └── com
+│ └── example
+│ └── slackapp
+│ ├── SlackAppApplicationTests.java
+│ ├── service
+│ │ └── SlackServiceTest.java
+│ └── controller
+│ └── SlackControllerIntegrationTest.java
 
 
 
