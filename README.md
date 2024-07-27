@@ -28,6 +28,8 @@ This is a Spring Boot application that sends messages to a Slack channel using S
 
 Project Structure
 
+
+
 slackapp
 ├── src
 │   ├── main
@@ -53,6 +55,9 @@ slackapp
                     │   └── SlackServiceTest.java
                     └── controller
                         └── SlackControllerIntegrationTest.java
+
+
+
 
 
 Brief Description and Development Decisions
